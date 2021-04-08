@@ -1,0 +1,17 @@
+.Item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 180px;
+    height: 20px;
+    border: 1px solid plum;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+p{
+    margin: 0;
+    font-family: fantasy;
+}
