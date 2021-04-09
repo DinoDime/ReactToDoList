@@ -1,7 +1,7 @@
 import "./index.css";
 import App from "./App";
 
-function returnDeletedList(props){
+function returnDeletedList(){
   return (
     <div>
       {props.itemList.map((itemObj) => {
@@ -16,4 +16,4 @@ function returnDeletedList(props){
   );
 };
 
-export default returnDeletedList;
+export default List;
