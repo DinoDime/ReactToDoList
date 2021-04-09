@@ -3,9 +3,7 @@ import "./index.css";
 function List(props) {
   //define key
   const deleteItemFromList = (key) => {
-		//print here 
     const newList = props.itemList.filter((itemObj) => {
-			//print here
       return itemObj.key !== key;
     });
 		//print newList
